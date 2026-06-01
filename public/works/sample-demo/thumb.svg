@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Sample demo thumbnail">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#c4b5fd" stop-opacity="0.95" />
+      <stop offset="45%" stop-color="#6366f1" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#18181b" stop-opacity="0" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="#09090b" />
+  <rect width="800" height="500" fill="url(#glow)" />
+  <rect width="800" height="500" fill="url(#fade)" />
+  <circle cx="400" cy="220" r="90" fill="#a78bfa" opacity="0.35" />
+  <text x="400" y="360" fill="#fafafa" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">
+    Mouse Glow Demo
+  </text>
+  <text x="400" y="395" fill="#a1a1aa" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">
+    Interactive Visual Sample
+  </text>
+</svg>
