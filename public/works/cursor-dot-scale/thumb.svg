@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Cursor dot scale demo thumbnail">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#27272a" stop-opacity="1" />
+      <stop offset="100%" stop-color="#09090b" stop-opacity="1" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg)" />
+  <circle cx="280" cy="250" r="18" fill="#ff0074" opacity="0.95" />
+  <circle cx="520" cy="250" r="58" fill="none" stroke="#dc33ff" stroke-width="2" opacity="0.45" />
+  <circle cx="520" cy="250" r="12" fill="#33c5ff" opacity="0.85" />
+  <text x="400" y="390" fill="#fafafa" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">
+    Cursor Dot Scale
+  </text>
+  <text x="400" y="425" fill="#a1a1aa" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">
+    Hover to enlarge
+  </text>
+</svg>

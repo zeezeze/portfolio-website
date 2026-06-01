@@ -19,6 +19,16 @@ export const works: Work[] = [
     featured: true,
     year: 2026,
   },
+  {
+    slug: "cursor-dot-scale",
+    title: "鼠标圆点缩放交互",
+    description:
+      "自定义圆点光标：悬停可点击元素时放大，颜色随时间循环变化。效果仅在演示框内生效。",
+    tags: ["interactive", "cursor", "micro-interaction"],
+    thumbnail: "/works/cursor-dot-scale/thumb.svg",
+    featured: true,
+    year: 2026,
+  },
 ];
 
 export function getWorkBySlug(slug: string): Work | undefined {

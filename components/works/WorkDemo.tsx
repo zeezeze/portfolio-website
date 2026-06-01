@@ -7,6 +7,9 @@ const workComponents: Record<string, ComponentType> = {
   "sample-demo": dynamic(() =>
     import("./SampleDemo").then((mod) => mod.SampleDemo),
   ),
+  "cursor-dot-scale": dynamic(() =>
+    import("./CursorDotScaleDemo").then((mod) => mod.CursorDotScaleDemo),
+  ),
 };
 
 type WorkDemoProps = {
