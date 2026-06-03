@@ -29,6 +29,46 @@ export const works: Work[] = [
     featured: true,
     year: 2026,
   },
+  {
+    slug: "normcore-motion",
+    title: "Normcore Motion Playground",
+    description:
+      "Normcore 风格 2D 生成式动态 playground：高饱和色场、像素格、几何块与故障艺术层，支持实时滑杆调参。",
+    tags: ["gsap", "generative", "glitch", "motion"],
+    thumbnail: "/works/normcore-motion/thumb.svg",
+    featured: false,
+    year: 2026,
+  },
+  {
+    slug: "milcore-hud",
+    title: "Milcore Industrial HUD",
+    description:
+      "军工未来界面：偏心能量核心、三角碎片矢量爆发、分层 HUD 与阶梯机械动效，灰度 + 单霓虹强调色。",
+    tags: ["gsap", "hud", "motion", "industrial"],
+    thumbnail: "/works/milcore-hud/thumb.svg",
+    featured: false,
+    year: 2026,
+  },
+  {
+    slug: "confirm-hover",
+    title: "确认按钮 Hover",
+    description:
+      "黑底「确认」按钮：hover 约 0.5s 白块与描边从左到右机械擦除，字色转粉；点击时文字缩小回弹。",
+    tags: ["interactive", "gsap", "button", "micro-interaction"],
+    thumbnail: "/works/confirm-hover/thumb.svg",
+    featured: false,
+    year: 2026,
+  },
+  {
+    slug: "game-menu-hover",
+    title: "游戏菜单 Hover",
+    description:
+      "白底游戏菜单项：hover 时故障闪屏、粉色字与三枚方块轨道动画（圆/方/三角路径），黑色方块每 2s 交替快旋。",
+    tags: ["interactive", "gsap", "glitch", "menu", "micro-interaction"],
+    thumbnail: "/works/game-menu-hover/thumb.svg",
+    featured: false,
+    year: 2026,
+  },
 ];
 
 export function getWorkBySlug(slug: string): Work | undefined {

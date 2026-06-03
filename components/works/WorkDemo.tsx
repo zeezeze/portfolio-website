@@ -10,6 +10,22 @@ const workComponents: Record<string, ComponentType> = {
   "cursor-dot-scale": dynamic(() =>
     import("./CursorDotScaleDemo").then((mod) => mod.CursorDotScaleDemo),
   ),
+  "normcore-motion": dynamic(() =>
+    import("./normcore-motion/NormcoreMotionPreview").then(
+      (mod) => mod.NormcoreMotionPreview,
+    ),
+  ),
+  "milcore-hud": dynamic(() =>
+    import("./milcore-hud/MilcoreHudPreview").then((mod) => mod.MilcoreHudPreview),
+  ),
+  "confirm-hover": dynamic(() =>
+    import("./confirm-hover/ConfirmHoverDemo").then((mod) => mod.ConfirmHoverDemo),
+  ),
+  "game-menu-hover": dynamic(() =>
+    import("./game-menu-hover/GameMenuHoverDemo").then(
+      (mod) => mod.GameMenuHoverDemo,
+    ),
+  ),
 };
 
 type WorkDemoProps = {

@@ -9,7 +9,9 @@ type WorkDetailPageProps = {
 };
 
 export async function generateStaticParams() {
-  return getAllSlugs().map((slug) => ({ slug }));
+  return getAllSlugs()
+    .filter((slug) => slug !== "normcore-motion" && slug !== "milcore-hud")
+    .map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({

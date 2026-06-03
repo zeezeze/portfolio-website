@@ -1,0 +1,71 @@
+import type { SliderConfig } from "../motion/types";
+
+export const PARAM_SLIDERS: SliderConfig[] = [
+  {
+    key: "hueShift",
+    label: "色相偏移",
+    min: 0,
+    max: 360,
+    step: 1,
+    unit: "°",
+  },
+  {
+    key: "glitchIntensity",
+    label: "故障强度",
+    min: 0,
+    max: 1,
+    step: 0.01,
+  },
+  {
+    key: "pixelSize",
+    label: "像素块大小",
+    min: 4,
+    max: 40,
+    step: 1,
+    unit: "px",
+  },
+  {
+    key: "motionSpeed",
+    label: "运动速度",
+    min: 0.2,
+    max: 3,
+    step: 0.05,
+  },
+  {
+    key: "stepRatio",
+    label: "阶梯动画比例",
+    min: 0,
+    max: 1,
+    step: 0.01,
+  },
+  {
+    key: "blurAmount",
+    label: "模糊程度",
+    min: 0,
+    max: 120,
+    step: 1,
+    unit: "px",
+  },
+  {
+    key: "density",
+    label: "图形密度",
+    min: 0,
+    max: 1,
+    step: 0.01,
+  },
+  {
+    key: "scaleAmplitude",
+    label: "缩放幅度",
+    min: 0,
+    max: 1,
+    step: 0.01,
+  },
+  {
+    key: "rotationAmplitude",
+    label: "旋转幅度",
+    min: 0,
+    max: 90,
+    step: 1,
+    unit: "°",
+  },
+];
